@@ -1,15 +1,19 @@
 # Links
 
-Autor: Faber Herrera
-Tiempo invertido: 12 horas aprox.
-Notes: Este proyecto es una prueba de desarrollo para un cargo laboral como desarrollador front end.
+### Autor: Faber Herrera
 
-Descripciós:
+### Tiempo invertido: 12 horas aprox.
+
+### Notes: Este proyecto es una prueba de desarrollo para un cargo laboral como desarrollador front end.
+
+## Descripción:
+
 Links es una aplicación, donde puedes guardar todas tus urls, para que
 nunca las olvides, de esta manera puedes registrarte en Links y poder
 agregar una URL cuando lo desees.
 
-Casos de uso:
+## Casos de uso:
+
 - Como usuario puedo loguearme en Links
 - Como usuario puedo registrarme en Links
 - Como usuario puedo ver mi información del perfil
@@ -17,11 +21,11 @@ Casos de uso:
 - Como usuario puedo agregar una url nueva
 - Como usuario puedo eliminar una url
 
-Recursos
-Diseño en Figma:
-https://www.figma.com/file/azBOEXGLpvSCfD7FmIrWcv/Links?node-id=2%3A38
-Base url api mock: https://6053e8e145e4b3001729271d.mockapi.io/api/
-Documentacion api: https://henrybravo.docs.apiary.io/
+## Recursos:
+
+- Diseño en Figma: https://www.figma.com/file/azBOEXGLpvSCfD7FmIrWcv/Links?node-id=2%3A38
+- Base url api mock: https://6053e8e145e4b3001729271d.mockapi.io/api/
+- Documentacion api: https://henrybravo.docs.apiary.io/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
