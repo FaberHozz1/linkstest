@@ -1,0 +1,18 @@
+<div class="container-form" *ngIf="formData">
+  <div class="container-title" *ngIf="formData.title">
+    <span>{{formData.title | translate}}</span>
+  </div>
+
+  <div *ngIf="formData.inputsData">  
+    <div *ngFor="let inputData of formData.inputsData">
+      <app-input [inputData]="inputData" (changeValue)="formValid()"></app-input>
+    </div>
+  </div>
+
+  <div class="form-button" *ngIf="formData.buttonData">
+    <app-button [buttonData]="formData.buttonData" (btnClick)="onButtonClick()"></app-button>
+  </div>
+
+  <div class="terms" [innerHTML]="formData.terms" *ngIf="formData.terms">
+  </div>
+</div>

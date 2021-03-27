@@ -1,0 +1,16 @@
+.register-page {
+  padding: 4vh 9.5vw;
+  text-align: -webkit-center;
+
+  .login-button {
+    text-align: -webkit-right;
+
+    ::ng-deep {
+      .container-button {
+        width: 18vw;
+        min-width: 130px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,42 @@
+<div class="links-page">
+  <div class="container-img">
+    <img [src]="'./assets/img/logo.svg'">
+  </div>
+  <div class="logout-button">
+    <app-button [buttonData]="logoutButtonData" (btnClick)="doLogout()"></app-button>
+  </div>
+
+  <div class="col-left">
+    <div class="container-avatar" *ngIf="userData">
+      <div class="image">
+        <img [src]="userData.avatar">
+      </div>
+      <div class="text">
+        {{userData.name}}
+      </div>
+      <div class="text">
+        {{userData.email}}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-right">
+    <div class="space">
+      <div>
+        <app-form [formData]="formData" (btnClick)="doCreateLink()"></app-form>
+      </div>
+
+      <div *ngIf="linksData">
+        <div class="container-url" *ngFor="let linkData of linksData; let i = index" (click)="doDeleteLink(linkData, i)">
+          <div class="container-text">
+            <div class="blue">{{linkData.url}}</div>
+            <div class="description">{{linkData.name}}</div>
+          </div>
+          <div class="container-trash">
+            <img [src]="'./assets/img/trash.svg'">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

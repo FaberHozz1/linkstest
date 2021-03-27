@@ -1,0 +1,9 @@
+<div class="login-page">
+  <div class="register-button">
+    <app-button [buttonData]="registerButtonData" (btnClick)="goToRegister()"></app-button>
+  </div>
+
+  <img [src]="'./assets/img/logo.svg'">
+
+  <app-form [formData]="formData" (btnClick)="onButtonClick()"></app-form>
+</div>

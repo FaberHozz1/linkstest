@@ -1,0 +1,33 @@
+{
+  "authentication": {
+    "login": {
+      "button": "signup",
+      "form": {
+        "title": "Login",
+        "button": "Login",
+        "input-email": "Your Email",
+        "input-password": "Password"
+      }
+    },
+    "register": {
+      "button": "login",
+      "form": {
+        "title": "Signup",
+        "button": "Signup",
+        "input-name": "Full Name",
+        "input-email": "Your Email",
+        "input-password": "Password"
+      }
+    }
+  },
+  "home": {
+    "links": {
+      "button": "logout",
+      "form": {
+        "input-url": "Url To Save",
+        "input-url-name": "Name of Url",
+        "button": "ADD"
+      }
+    }
+  }
+}

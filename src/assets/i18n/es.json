@@ -1,0 +1,10 @@
+{
+  "authentication": {
+    "login": {
+      "button": "Registrarme"
+    },
+    "register": {
+      "button": "Iniciar sesion"
+    }
+  }
+}

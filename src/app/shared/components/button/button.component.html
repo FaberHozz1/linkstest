@@ -1,0 +1,7 @@
+<div class="container-button">
+  <div class="button" [class.fill]="buttonData.fill" (click)="onButtonClick()" [class.disabled]="buttonData.disabled">
+    <span class="text">
+      {{buttonData.text | translate }}
+    </span>
+  </div>
+</div>
